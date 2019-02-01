@@ -1,0 +1,13 @@
+<div class="page">
+	<button ng-click="goToWithdraw();" class="button-back">< Saque</button>
+	<h1>Depósito</h1>
+	<div ng-repeat="MoneyNote in MoneyNotes">
+		<div class="money-note-container">
+			<input ng-model="MoneyNote.quantity" type="number" step="1" min="0"
+				   class="input input-money-note-quantity"/>
+			<div class="image-money-note image-money-note-{{MoneyNote.value}}"></div>
+		</div>
+		<div class="clear" ng-if="$index % 2 === 1"></div>
+	</div>
+	<button ng-click="toDeposit();" class="button">Depositar</button>
+</div>

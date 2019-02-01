@@ -1,0 +1,7 @@
+{
+	"name": "ATM Server",
+	"version": "1.0.0",
+	"description": "System that simulates ATM (Server)",
+	"title": "ATM Server",
+	"url": "https://atm-server.herokuapp.com"
+}

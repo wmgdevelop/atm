@@ -1,0 +1,7 @@
+node_modules
+atm-front/node_modules
+atm-front/.firebase
+atm-front/dist
+atm-server/node_modules
+atm-server/docs
+.idea

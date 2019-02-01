@@ -1,0 +1,209 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #58666e;
+}
+
+.clear {
+	clear: both;
+}
+
+.right {
+	float: right;
+}
+
+.page {
+	padding: 48px 32px 0;
+}
+
+.input {
+	width: 100px;
+	border: 1px solid #cecece;
+	border-radius: 2px;
+	padding: 8px 8px;
+	outline: none;
+}
+
+.input:focus {
+	border: 1px solid #00be9c;
+}
+
+.button {
+	cursor: pointer;
+	margin: 16px;
+	padding: 8px;
+	border: 1px solid transparent;
+	font-size: 16px;
+	background: #00be9c;
+	color: #ffffff;
+	outline: none;
+}
+
+.button:hover {
+	background: #17a086;
+}
+
+.button:focus {
+	color: #00be9c;
+	background: #ffffff;
+	border: 1px solid #00be9c;
+}
+
+.button-back {
+	cursor: pointer;
+	padding: 8px;
+	font-size: 16px;
+	background: transparent;
+	border: 1px solid transparent;
+	color: #17a086;
+	outline: none;
+}
+
+.button-back:hover {
+	border: 1px solid #00be9c;
+}
+
+.button-back:focus {
+	border: 1px solid #ff8c2e;
+	color: #ff8c2e;
+}
+
+.money-note-container {
+	float: left;
+	margin: 0 16px 8px;
+}
+
+.image-money-note {
+	float: left;
+	margin-left: 16px;
+	width: 100px;
+	height: 47px;
+}
+
+.image-money-note-2 {
+	background: url('../images/money-notes.png') 600px 0;
+}
+
+.image-money-note-5 {
+	background: url('../images/money-notes.png') 500px 0;
+}
+
+.image-money-note-10 {
+	background: url('../images/money-notes.png') 400px 0;
+}
+
+.image-money-note-20 {
+	background: url('../images/money-notes.png') 300px 0;
+}
+
+.image-money-note-50 {
+	background: url('../images/money-notes.png') 200px 0;
+}
+
+.image-money-note-100 {
+	background: url('../images/money-notes.png') 100px 0;
+}
+
+.label-money-note-value {
+	float: left;
+	width: 100px;
+}
+
+.input-money-note-quantity {
+	float: left;
+	width: 80px;
+}
+
+.alert {
+	width: calc(100% - 32px);
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 16px;
+	color: #ffffff;
+	/* animation "alert-animation" */
+	-webkit-animation-name: alert-animation;
+	-moz-animation-name: alert-animation;
+	-o-animation-name: alert-animation;
+	animation-name: alert-animation;
+	-webkit-animation-duration: 6s;
+	-moz-animation-duration: 6s;
+	-o-animation-duration: 6s;
+	animation-duration: 6s;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	/* end:animation "alert-animation" */
+}
+
+.alert-success {
+	background: #00be9c;
+}
+
+.alert-error {
+	background: #ff3300;
+}
+
+/* keyframes "alert-animation" */
+@keyframes alert-animation {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes alert-animation {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes alert-animation {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-o-keyframes alert-animation {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+/* end:animation "alert-animation" */

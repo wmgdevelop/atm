@@ -1,0 +1,31 @@
+{
+	"name": "ATM Caixa Eletrônico",
+	"short_name": "ATM",
+	"start_url": "index.html",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#325168",
+	"description": "Chappeiro",
+	"icons": [
+		{
+			"src": "images/logo/image-logo-16x16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "images/logo/image-logo-32x32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "images/logo/image-logo-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "images/logo/image-logo-256x256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"name": "atm-server",
+	"version": "1.0.0",
+	"description": "System that simulates ATM (Server)",
+	"main": "app.js",
+	"scripts": {
+		"start": "node ./app.js",
+		"dev": "nodemon --watch . --exec npm start",
+		"test": "mocha modules/**/*.test.js",
+		"docs": "apidoc -i modules -o docs"
+	},
+	"keywords": [
+		"atm"
+	],
+	"author": "Willian Magalhães Gonçalves <wmgdevelop@gmail.com>",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "1.18.3",
+		"cors": "2.8.5",
+		"express": "4.16.4",
+		"mongoose": "5.4.8"
+	},
+	"devDependencies": {
+		"apidoc": "^0.17.7",
+		"chai": "4.2.0",
+		"chai-http": "4.2.1",
+		"mocha": "5.2.0"
+	},
+	"engines": {
+		"node": "10.13.0",
+		"npm": "6.4.1"
+	}
+}
